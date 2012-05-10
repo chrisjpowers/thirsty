@@ -1,17 +1,17 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
+    "name": "thirsty"
+  , "version": "0.0.2"
   , "private": true
   , "scripts": {
-      "start": "node app.js"
+      "start": "node app.js",
+      "test": "feat test"
     }
   , "dependencies": {
       "express": "2.5.8"
     , "sockjs": "0.x.x"
     , "mongoose": "2.x.x"
     , "jade": ">= 0.0.1"
-    , "feat": "*"
-    , "sockjs": "*"
+    , "feat": ">= 0.0.3"
   }
   , "devDependencies": {
       "zombie": "*"

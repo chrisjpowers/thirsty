@@ -1,4 +1,4 @@
-var express, feat, server, routes, sockjs;
+var express, feat, app, routes;
 feat = require("feat");
 express = require("express");
 routes = require("./routes"); 
