@@ -4,7 +4,8 @@
 
 var express = require('express')
   , feat = require("feat")
-  , app = module.exports = express.createServer();
+  , app = module.exports = express.createServer()
+  , mongoose = require("mongoose");
 
 // Configuration
 
@@ -27,5 +28,6 @@ app.configure('production', function(){
   app.use(express.errorHandler());
 });
 
-app.listen(8334);
-console.log("Thirsty is at your service %d in %s mode", app.address().port, app.settings.env);
+port = process.env.PORT || 8334
+app.listen(port);
+console.log("Thirsty is at your service %d in %s mode", port, app.settings.env);

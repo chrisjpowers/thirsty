@@ -1,0 +1,14 @@
+{
+  "development": {
+    "host": "localhost",
+    "database": "beer"
+  },
+  "test": {
+    "host": "localhost",
+    "database": "beer-test"
+  },
+  "production": {
+    "host": "localhost",
+    "database": "beer"
+  }
+}

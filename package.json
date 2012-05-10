@@ -13,4 +13,9 @@
     , "feat": "*"
     , "sockjs": "*"
   }
+  , "devDependencies": {
+      "zombie": "*"
+    , "mocha": "*"
+    , "chai": "*"
+  }
 }
