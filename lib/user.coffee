@@ -48,7 +48,7 @@ User::updateTimestamps = ->
 
 User::hasDrinksToGive = ->
   today = new Date()
-  lastbeer = new Date(pal.lastDrink)
+  lastbeer = new Date(@lastDrink)
   !(lastbeer.getMonth() == today.getMonth() && lastbeer.getDate() == today.getDate())
 
 

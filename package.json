@@ -17,5 +17,6 @@
       "zombie": "*"
     , "mocha": "*"
     , "chai": "*"
+    , "require": "*"
   }
 }
